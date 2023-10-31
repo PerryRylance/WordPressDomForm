@@ -1,0 +1,22 @@
+{
+    "name": "perry-rylance/wordpress-dom-form",
+	"version": "1.0.0",
+    "description": "A WordPress wrapper for perry-rylance/dom-form that allows you to quickly add forms and serialization to WordPress pages, for example, settings pages, tools pages or your own custom admin pages.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PerryRylance\\WordpressDomForm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Perry Rylance",
+            "email": "contact@perryrylance.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "perry-rylance/dom-form": "^1.0"
+    }
+}
